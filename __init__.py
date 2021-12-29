@@ -7,7 +7,9 @@ import csv
 
 class Notifsender(ToastNotifier):
 
-	'''Notifsender permet de gérer les notification.
+	'''
+	
+	   Notifsender permet de gérer les notification.
 	   (Permet aussi d'associer un évenementt à une notification)
 	   class mére: ToastNotifier()
 	   -----------
@@ -16,7 +18,8 @@ class Notifsender(ToastNotifier):
 	   ---------
 	   __init__(self, auteur:str, message:str):constructeur
 	   affiche(self): appelle la méthode show_toast(...) de la class mére --> notification de l'evennement 
-	   save(...): 
+	   save(...):
+	   
 	'''
 
 	def __init__(self, auteur:str=None, message:str=None):
